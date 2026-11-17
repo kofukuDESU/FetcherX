@@ -2,7 +2,7 @@ name: Fetch Configs
 permissions: write-all
 on:
   schedule:
-    - cron: "*/41 * * * *"
+    - cron: '12 12 * * *'
   workflow_dispatch:
 
 jobs:
